@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA Encryption/Decryption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RSA Encryption / Decryption</h1>
+        <button class="gk" onclick="generateKeys()">Generate Keys</button><br>
+        <label for="plaintext">Enter plaintext message:</label>
+        <textarea id="plaintext" rows="4" cols="50"></textarea><br>
+        <button onclick="encrypt()">Encrypt</button>
+        <div id="output"></div>
+        <button onclick="decrypt()">Decrypt</button>
+        <div id="decrypted"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
